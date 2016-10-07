@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FriendsListViewController.h
 //  obcChat
 //
 //  Created by YangYang on 2016-10-06.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface FriendsListViewController : UITableViewController
 
 @end
-

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>177848337535-2v4jv0e95cr4ntc50a8muh3160j66275.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.177848337535-2v4jv0e95cr4ntc50a8muh3160j66275</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCo5VBPKz0JOsdLEv5xfEyvEdSoKqR-7sk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>177848337535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>personal.yang.obcChat</string>
+	<key>PROJECT_ID</key>
+	<string>obcchat-525bf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>obcchat-525bf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:177848337535:ios:1d4f09ae83ff78fd</string>
+	<key>DATABASE_URL</key>
+	<string>https://obcchat-525bf.firebaseio.com</string>
+</dict>
+</plist>

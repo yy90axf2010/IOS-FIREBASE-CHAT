@@ -15,6 +15,22 @@
 		2FD01D491DA6C22500A94211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD01D471DA6C22500A94211 /* LaunchScreen.storyboard */; };
 		2FD01D541DA6C22500A94211 /* obcChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D531DA6C22500A94211 /* obcChatTests.m */; };
 		2FD01D5F1DA6C22500A94211 /* obcChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D5E1DA6C22500A94211 /* obcChatUITests.m */; };
+		2FD01D6D1DA6C26400A94211 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD01D6C1DA6C26400A94211 /* GoogleService-Info.plist */; };
+		2FD01D701DA6C60300A94211 /* CreateAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D6F1DA6C60300A94211 /* CreateAccountController.m */; };
+		2FD01D741DA6DDBC00A94211 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD01D731DA6DDBC00A94211 /* profile.png */; };
+		2FD01D771DA6DE1B00A94211 /* FriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D761DA6DE1B00A94211 /* FriendsListViewController.m */; };
+		2FD01D7D1DA726D500A94211 /* addFriendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D7C1DA726D500A94211 /* addFriendView.m */; };
+		2FD01D801DA7275700A94211 /* myProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D7F1DA7275700A94211 /* myProfile.m */; };
+		2FD01D831DA7277A00A94211 /* chatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D821DA7277A00A94211 /* chatView.m */; };
+		2FD01D871DA739AA00A94211 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D851DA739AA00A94211 /* myCell.m */; };
+		2FD01D881DA739AA00A94211 /* myCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD01D861DA739AA00A94211 /* myCell.xib */; };
+		2FD01D8C1DA7F4C500A94211 /* ChatCellYou.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D8A1DA7F4C500A94211 /* ChatCellYou.m */; };
+		2FD01D8D1DA7F4C500A94211 /* ChatCellYou.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD01D8B1DA7F4C500A94211 /* ChatCellYou.xib */; };
+		2FD01D911DA7F4DE00A94211 /* ChatCellMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD01D8F1DA7F4DE00A94211 /* ChatCellMe.m */; };
+		2FD01D921DA7F4DE00A94211 /* ChatCellMe.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD01D901DA7F4DE00A94211 /* ChatCellMe.xib */; };
+		61AE18A7132041DEC3C85681 /* libPods-obcChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 983BCDE733AACC18D8AB546C /* libPods-obcChatUITests.a */; };
+		61B678002AFF7861FDD05669 /* libPods-obcChatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BAACC44489AEF7BA033647 /* libPods-obcChatTests.a */; };
+		9845CBD1CCD6C4AE6F398672 /* libPods-obcChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E6584F019DDF52020DDB2C /* libPods-obcChat.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BAACC44489AEF7BA033647 /* libPods-obcChatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-obcChatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F8CF01272F815BE6BC73D /* Pods-obcChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obcChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obcChatTests/Pods-obcChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B2A28985A164A1B514B7B80 /* Pods-obcChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obcChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-obcChatUITests/Pods-obcChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2FD01D361DA6C22500A94211 /* obcChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obcChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD01D3A1DA6C22500A94211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FD01D3C1DA6C22500A94211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,34 @@
 		2FD01D5A1DA6C22500A94211 /* obcChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obcChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD01D5E1DA6C22500A94211 /* obcChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obcChatUITests.m; sourceTree = "<group>"; };
 		2FD01D601DA6C22500A94211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD01D6C1DA6C26400A94211 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FD01D6E1DA6C60300A94211 /* CreateAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountController.h; sourceTree = "<group>"; };
+		2FD01D6F1DA6C60300A94211 /* CreateAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountController.m; sourceTree = "<group>"; };
+		2FD01D711DA6DA1C00A94211 /* obcChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = obcChat.entitlements; sourceTree = "<group>"; };
+		2FD01D731DA6DDBC00A94211 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		2FD01D751DA6DE1B00A94211 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsListViewController.h; sourceTree = "<group>"; };
+		2FD01D761DA6DE1B00A94211 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsListViewController.m; sourceTree = "<group>"; };
+		2FD01D7B1DA726D500A94211 /* addFriendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addFriendView.h; sourceTree = "<group>"; };
+		2FD01D7C1DA726D500A94211 /* addFriendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFriendView.m; sourceTree = "<group>"; };
+		2FD01D7E1DA7275700A94211 /* myProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myProfile.h; sourceTree = "<group>"; };
+		2FD01D7F1DA7275700A94211 /* myProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myProfile.m; sourceTree = "<group>"; };
+		2FD01D811DA7277A00A94211 /* chatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatView.h; sourceTree = "<group>"; };
+		2FD01D821DA7277A00A94211 /* chatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatView.m; sourceTree = "<group>"; };
+		2FD01D841DA739AA00A94211 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		2FD01D851DA739AA00A94211 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		2FD01D861DA739AA00A94211 /* myCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myCell.xib; sourceTree = "<group>"; };
+		2FD01D891DA7F4C500A94211 /* ChatCellYou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCellYou.h; sourceTree = "<group>"; };
+		2FD01D8A1DA7F4C500A94211 /* ChatCellYou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCellYou.m; sourceTree = "<group>"; };
+		2FD01D8B1DA7F4C500A94211 /* ChatCellYou.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCellYou.xib; sourceTree = "<group>"; };
+		2FD01D8E1DA7F4DE00A94211 /* ChatCellMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCellMe.h; sourceTree = "<group>"; };
+		2FD01D8F1DA7F4DE00A94211 /* ChatCellMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCellMe.m; sourceTree = "<group>"; };
+		2FD01D901DA7F4DE00A94211 /* ChatCellMe.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCellMe.xib; sourceTree = "<group>"; };
+		89649AC3D88A6C7840C57C04 /* Pods-obcChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obcChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-obcChatTests/Pods-obcChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A14384FC9E8A80EEAA56D91 /* Pods-obcChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obcChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obcChatUITests/Pods-obcChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		983BCDE733AACC18D8AB546C /* libPods-obcChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-obcChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63E8D9B3DFFE1E2401D747F /* Pods-obcChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obcChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obcChat/Pods-obcChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E6584F019DDF52020DDB2C /* libPods-obcChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-obcChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84EF019A5A2C745C918E610 /* Pods-obcChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obcChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-obcChat/Pods-obcChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9845CBD1CCD6C4AE6F398672 /* libPods-obcChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B678002AFF7861FDD05669 /* libPods-obcChatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +121,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AE18A7132041DEC3C85681 /* libPods-obcChatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B07F677D6EC832B084D5C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F63E8D9B3DFFE1E2401D747F /* Pods-obcChat.debug.xcconfig */,
+				F84EF019A5A2C745C918E610 /* Pods-obcChat.release.xcconfig */,
+				047F8CF01272F815BE6BC73D /* Pods-obcChatTests.debug.xcconfig */,
+				89649AC3D88A6C7840C57C04 /* Pods-obcChatTests.release.xcconfig */,
+				8A14384FC9E8A80EEAA56D91 /* Pods-obcChatUITests.debug.xcconfig */,
+				2B2A28985A164A1B514B7B80 /* Pods-obcChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2FD01D2D1DA6C22500A94211 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +148,8 @@
 				2FD01D521DA6C22500A94211 /* obcChatTests */,
 				2FD01D5D1DA6C22500A94211 /* obcChatUITests */,
 				2FD01D371DA6C22500A94211 /* Products */,
+				07B07F677D6EC832B084D5C2 /* Pods */,
+				4CDA036DEE87ECE28C419A65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +166,37 @@
 		2FD01D381DA6C22500A94211 /* obcChat */ = {
 			isa = PBXGroup;
 			children = (
+				2FD01D721DA6DD7400A94211 /* Rescource */,
+				2FD01D711DA6DA1C00A94211 /* obcChat.entitlements */,
 				2FD01D3C1DA6C22500A94211 /* AppDelegate.h */,
 				2FD01D3D1DA6C22500A94211 /* AppDelegate.m */,
 				2FD01D3F1DA6C22500A94211 /* ViewController.h */,
 				2FD01D401DA6C22500A94211 /* ViewController.m */,
+				2FD01D6E1DA6C60300A94211 /* CreateAccountController.h */,
+				2FD01D6F1DA6C60300A94211 /* CreateAccountController.m */,
 				2FD01D421DA6C22500A94211 /* Main.storyboard */,
+				2FD01D861DA739AA00A94211 /* myCell.xib */,
+				2FD01D811DA7277A00A94211 /* chatView.h */,
+				2FD01D821DA7277A00A94211 /* chatView.m */,
+				2FD01D7E1DA7275700A94211 /* myProfile.h */,
+				2FD01D7F1DA7275700A94211 /* myProfile.m */,
+				2FD01D7B1DA726D500A94211 /* addFriendView.h */,
+				2FD01D7C1DA726D500A94211 /* addFriendView.m */,
+				2FD01D841DA739AA00A94211 /* myCell.h */,
+				2FD01D851DA739AA00A94211 /* myCell.m */,
 				2FD01D451DA6C22500A94211 /* Assets.xcassets */,
 				2FD01D471DA6C22500A94211 /* LaunchScreen.storyboard */,
 				2FD01D4A1DA6C22500A94211 /* Info.plist */,
+				2FD01D6C1DA6C26400A94211 /* GoogleService-Info.plist */,
 				2FD01D391DA6C22500A94211 /* Supporting Files */,
+				2FD01D751DA6DE1B00A94211 /* FriendsListViewController.h */,
+				2FD01D761DA6DE1B00A94211 /* FriendsListViewController.m */,
+				2FD01D891DA7F4C500A94211 /* ChatCellYou.h */,
+				2FD01D8A1DA7F4C500A94211 /* ChatCellYou.m */,
+				2FD01D8B1DA7F4C500A94211 /* ChatCellYou.xib */,
+				2FD01D8E1DA7F4DE00A94211 /* ChatCellMe.h */,
+				2FD01D8F1DA7F4DE00A94211 /* ChatCellMe.m */,
+				2FD01D901DA7F4DE00A94211 /* ChatCellMe.xib */,
 			);
 			path = obcChat;
 			sourceTree = "<group>";
@@ -140,6 +227,24 @@
 			path = obcChatUITests;
 			sourceTree = "<group>";
 		};
+		2FD01D721DA6DD7400A94211 /* Rescource */ = {
+			isa = PBXGroup;
+			children = (
+				2FD01D731DA6DDBC00A94211 /* profile.png */,
+			);
+			name = Rescource;
+			sourceTree = "<group>";
+		};
+		4CDA036DEE87ECE28C419A65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E6584F019DDF52020DDB2C /* libPods-obcChat.a */,
+				00BAACC44489AEF7BA033647 /* libPods-obcChatTests.a */,
+				983BCDE733AACC18D8AB546C /* libPods-obcChatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FD01D631DA6C22500A94211 /* Build configuration list for PBXNativeTarget "obcChat" */;
 			buildPhases = (
+				F02D7BD223D85044B0A230A9 /* [CP] Check Pods Manifest.lock */,
 				2FD01D321DA6C22500A94211 /* Sources */,
 				2FD01D331DA6C22500A94211 /* Frameworks */,
 				2FD01D341DA6C22500A94211 /* Resources */,
+				69A625871333537CC8274B36 /* [CP] Embed Pods Frameworks */,
+				787F454BE2E90E18D03D1701 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FD01D661DA6C22500A94211 /* Build configuration list for PBXNativeTarget "obcChatTests" */;
 			buildPhases = (
+				98B319DAB2238626757CAADA /* [CP] Check Pods Manifest.lock */,
 				2FD01D4B1DA6C22500A94211 /* Sources */,
 				2FD01D4C1DA6C22500A94211 /* Frameworks */,
 				2FD01D4D1DA6C22500A94211 /* Resources */,
+				B57816E8D529D584DB45FE9D /* [CP] Embed Pods Frameworks */,
+				0B8441FBC2BD0F162BD0D082 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FD01D691DA6C22500A94211 /* Build configuration list for PBXNativeTarget "obcChatUITests" */;
 			buildPhases = (
+				205461436B06D7E2D14AF77E /* [CP] Check Pods Manifest.lock */,
 				2FD01D561DA6C22500A94211 /* Sources */,
 				2FD01D571DA6C22500A94211 /* Frameworks */,
 				2FD01D581DA6C22500A94211 /* Resources */,
+				739FBF246EC03400CB5C1945 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,15 +320,26 @@
 				TargetAttributes = {
 					2FD01D351DA6C22500A94211 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4LS96X6T96;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					2FD01D4E1DA6C22500A94211 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4LS96X6T96;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2FD01D351DA6C22500A94211;
 					};
 					2FD01D591DA6C22500A94211 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4LS96X6T96;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2FD01D351DA6C22500A94211;
 					};
@@ -247,7 +371,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD01D491DA6C22500A94211 /* LaunchScreen.storyboard in Resources */,
+				2FD01D921DA7F4DE00A94211 /* ChatCellMe.xib in Resources */,
+				2FD01D881DA739AA00A94211 /* myCell.xib in Resources */,
+				2FD01D8D1DA7F4C500A94211 /* ChatCellYou.xib in Resources */,
 				2FD01D461DA6C22500A94211 /* Assets.xcassets in Resources */,
+				2FD01D6D1DA6C26400A94211 /* GoogleService-Info.plist in Resources */,
+				2FD01D741DA6DDBC00A94211 /* profile.png in Resources */,
 				2FD01D441DA6C22500A94211 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +397,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B8441FBC2BD0F162BD0D082 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obcChatTests/Pods-obcChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		205461436B06D7E2D14AF77E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69A625871333537CC8274B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obcChat/Pods-obcChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739FBF246EC03400CB5C1945 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obcChatUITests/Pods-obcChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787F454BE2E90E18D03D1701 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obcChat/Pods-obcChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B319DAB2238626757CAADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B57816E8D529D584DB45FE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obcChatTests/Pods-obcChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02D7BD223D85044B0A230A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FD01D321DA6C22500A94211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD01D831DA7277A00A94211 /* chatView.m in Sources */,
 				2FD01D411DA6C22500A94211 /* ViewController.m in Sources */,
+				2FD01D701DA6C60300A94211 /* CreateAccountController.m in Sources */,
+				2FD01D771DA6DE1B00A94211 /* FriendsListViewController.m in Sources */,
 				2FD01D3E1DA6C22500A94211 /* AppDelegate.m in Sources */,
+				2FD01D801DA7275700A94211 /* myProfile.m in Sources */,
+				2FD01D871DA739AA00A94211 /* myCell.m in Sources */,
+				2FD01D8C1DA7F4C500A94211 /* ChatCellYou.m in Sources */,
+				2FD01D7D1DA726D500A94211 /* addFriendView.m in Sources */,
+				2FD01D911DA7F4DE00A94211 /* ChatCellMe.m in Sources */,
 				2FD01D3B1DA6C22500A94211 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,8 +680,11 @@
 		};
 		2FD01D641DA6C22500A94211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63E8D9B3DFFE1E2401D747F /* Pods-obcChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = obcChat/obcChat.entitlements;
+				DEVELOPMENT_TEAM = 4LS96X6T96;
 				INFOPLIST_FILE = obcChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.yang.obcChat;
@@ -431,8 +694,11 @@
 		};
 		2FD01D651DA6C22500A94211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84EF019A5A2C745C918E610 /* Pods-obcChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = obcChat/obcChat.entitlements;
+				DEVELOPMENT_TEAM = 4LS96X6T96;
 				INFOPLIST_FILE = obcChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.yang.obcChat;
@@ -442,8 +708,10 @@
 		};
 		2FD01D671DA6C22500A94211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047F8CF01272F815BE6BC73D /* Pods-obcChatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4LS96X6T96;
 				INFOPLIST_FILE = obcChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.yang.obcChatTests;
@@ -454,8 +722,10 @@
 		};
 		2FD01D681DA6C22500A94211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89649AC3D88A6C7840C57C04 /* Pods-obcChatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4LS96X6T96;
 				INFOPLIST_FILE = obcChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.yang.obcChatTests;
@@ -466,7 +736,9 @@
 		};
 		2FD01D6A1DA6C22500A94211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A14384FC9E8A80EEAA56D91 /* Pods-obcChatUITests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4LS96X6T96;
 				INFOPLIST_FILE = obcChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.yang.obcChatUITests;
@@ -477,7 +749,9 @@
 		};
 		2FD01D6B1DA6C22500A94211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2A28985A164A1B514B7B80 /* Pods-obcChatUITests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4LS96X6T96;
 				INFOPLIST_FILE = obcChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.yang.obcChatUITests;
@@ -505,6 +779,7 @@
 				2FD01D651DA6C22500A94211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FD01D661DA6C22500A94211 /* Build configuration list for PBXNativeTarget "obcChatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +788,7 @@
 				2FD01D681DA6C22500A94211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FD01D691DA6C22500A94211 /* Build configuration list for PBXNativeTarget "obcChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +797,7 @@
 				2FD01D6B1DA6C22500A94211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
